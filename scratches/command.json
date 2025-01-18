@@ -1,0 +1,32 @@
+[
+{
+    "name": "minecraft",
+    "description": "manage minecraft server",
+    "options": [
+      {
+        "name": "command",
+        "description": "The type of command",
+        "type": 3,
+        "required": true,
+        "choices": [
+          {
+            "name": "Start",
+            "value": "start"
+          },
+          {
+            "name": "Stop",
+            "value": "stop"
+          },
+          {
+            "name": "Status",
+            "value": "status"
+          },
+          {
+            "name": "Cost",
+            "value": "cost"
+          }
+        ]
+      }
+    ]
+  }
+ ]
